@@ -1,0 +1,29 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number guesing game</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <div class="flex mt-40  justify-center">
+        <div class="bg-gray-100 p-15 rounded-2xl shadow-lg text-center w-full max-w-md">
+            <p class="text-2xl font-bold text-gray-800 mb-6 font-serif"> Guess the Number😎🥳</p>
+            <p class="text-md font-serif mb-4">Pick a number between 1 and 100</p>
+            <div class="flex  gap-2 ">
+                <input text="number" placeholder="Guess a number..." id="inputNum" class="border-2 p-2 rounded-2xl ">
+                <button id="Btn" class="bg-blue-500  p-2 rounded-2xl text-white font-serif">Guess</button>
+                <button class="bg-red-500  py-2 rounded-2xl px-4 text-white font-serif" id="resetBtn">Play again</button>
+            </div>
+                           
+    <p id="feedback" class=" text-lg font-serif text-green-500"></p>
+
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
