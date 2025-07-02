@@ -37,8 +37,5 @@ guessButton.addEventListener('click', ()=> {
  resetButton.addEventListener('click',()=>{
     answer= Math.floor(Math.random()*(maxNum-minNum+1)) +minNum;
    //reset everything
-   guessInput.disabled=false;
-   guessButton.disabled=false;
-   guessInput.value="";
-   message.textContent="";
+   
  });
